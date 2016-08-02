@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5 Vincent about</div>
+                <div class="title">About Page Here</div>
             </div>
         </div>
     </body>
