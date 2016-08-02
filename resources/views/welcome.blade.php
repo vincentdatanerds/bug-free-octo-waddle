@@ -41,11 +41,17 @@
                 <div class="title">Laravel 5 Vincent v2</div>
             </div>
         </div> --}}
-        <?php foreach ($people as $person) : ?>
-            <li><?= $person;  ?></li>         
+        @if (empty($people))
+
+            There are no people. 
+        
+
+        @endif
 
 
-        <?php endforeach; ?> 
+        @foreach ($people as $person)
+            <li>{{ $person }}</li>         
+        @endforeach
 
     </body>
 </html>
